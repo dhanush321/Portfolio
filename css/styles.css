@@ -9,7 +9,7 @@ body{
 }
 nav {
     width:100vw;
-    height: 10vh;
+    height: 100%;
     background-image: url('/assets/navbg.jpg');
 }
 nav ul{
@@ -17,6 +17,7 @@ nav ul{
     justify-content:center;
     flex-wrap:wrap;
     margin:0;
+    height: 100%;
     
 }
 nav ul li{
@@ -35,7 +36,6 @@ nav ul li{
     position:fixed;
 }
 nav li a {
-    position:fixed;
     text-decoration:none;
     font-family: Open Sans;
     color: white;
@@ -50,7 +50,7 @@ a:active {
 .hero {
     background-image:url('/assets/bg.jpg'); 
     width:100vw;
-    height:85vh;
+    height:86.5vh;
     background-position:center;
     background-size: cover;
 }
@@ -67,7 +67,6 @@ h1 {
 .about {
     background-image: url('/assets/aboutbg.jpg');
     width:100vw;
-    height: 85vh;
 }
 .about h1 {
     color: black;
@@ -78,16 +77,17 @@ h1 {
 p {
     font-size: 2em;
     font-family: 'Exo', sans-serif;
-    margin:50px;
+    margin:50px 50px 0 50px;
+    padding-bottom: 7%;
+
 }
 .content {
     background-image: url('/assets/projectsbg.jpg');
     background-size: cover;
     background-position: center;
     width: 100vw;
-    height: 85vh;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 15px;
     justify-content: center;   
 }
@@ -111,10 +111,9 @@ figcaption {
 }
 .form {
     background-image: url('/assets/contactbg.jpg');
-    background-repeat: no-;
     background-size: cover;
     width:100vw;
-    height:85vh;
+    height:86.5vh;
 
 }
 .form h1 {
@@ -122,25 +121,27 @@ figcaption {
     font-family: 'Exo', sans-serif;
 }
 label {
-    display: grid;
     font-family: 'Ropa Sans', sans-serif;
     font-variant: small-caps;
-    color: whitesmoke;
+    color: rgb(104, 46, 46);
     font-size: 25px;
-    margin-left: 400px;
+    display: flex;
+	width: 50%; 
+    margin:auto;
 }
 input { 
+    display: flex;
 	width: 50%; 
-    margin-bottom: 5px;
-    margin-left: 400px; 
+    margin:auto;
 	border: 1px solid black;
     padding: 8px;
     border-radius: 4px; 
 }
 textarea{
-    width: 50%; 
+    display: flex;
+	width: 50%; 
+    margin:auto;
     margin-bottom: 5px;
-    margin-left: 400px; 
 	border: 1px solid black;
     padding: 8px;
     border-radius: 4px;
