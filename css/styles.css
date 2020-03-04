@@ -50,7 +50,7 @@ a:active {
 .hero {
     background-image:url('/assets/bg.jpg'); 
     width:100vw;
-    height:90vh;
+    height:85vh;
     background-position:center;
     background-size: cover;
 }
@@ -67,7 +67,7 @@ h1 {
 .about {
     background-image: url('/assets/aboutbg.jpg');
     width:100vw;
-    height: 90vh;
+    height: 85vh;
 }
 .about h1 {
     color: black;
@@ -85,7 +85,7 @@ p {
     background-size: cover;
     background-position: center;
     width: 100vw;
-    height: 90vh;
+    height: 85vh;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 15px;
@@ -114,7 +114,7 @@ figcaption {
     background-repeat: no-;
     background-size: cover;
     width:100vw;
-    height:90vh;
+    height:85vh;
 
 }
 .form h1 {
@@ -155,4 +155,9 @@ textarea{
 .social i{
     font-size: 2.5rem;
      justify-content: space-between;
+}
+footer {
+    background-color: black;
+    color: white;
+    height: 5vh;
 }
